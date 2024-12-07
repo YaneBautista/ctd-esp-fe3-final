@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.favButton{
+  background-color: rgba(136, 136, 136, 0.116);
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+  
+  margin-right: 2rem;
+  gap:15px;
+}
+
+a{
+  color:#222;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+a:hover{
+  color: rgb(136, 136, 136);
+} 
+.theme-icon {
+  width: 24px; 
+  height: 24px;
+  cursor: pointer;
+}
+
+.theme-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  bottom: 0;
+  height: 40px;
+  margin-top: 2rem;
+}
+
+footer > img{
+  width: 200px;
+  margin: 0;
+}
+
+footer > p{
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  margin-left: auto; 
+  justify-content: flex-start;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; 
+  width: 200px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  border: 0.5px solid rgb(136, 136, 136);
+}
+
+
+.card:hover{
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 90vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 9px;
+  margin-bottom: 10px;
+}
+
+table {
+ border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dark{
+  background-color:#646262;
+  color: white;
+}
+.dark > a {
+  color: white;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.light-theme {
+  background-color: #f7e6e67c;
+  color: rgba(236, 223, 223, 0.774);
+}
+
+.dark-theme {
+  background-color: #868282e5;
+  color: rgb(161, 140, 140);
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0); 
+  transition: filter 0.3s;
+}
+
+.light-theme .social-icons img {
+  filter: brightness(0); 
+}
+
+.dark-theme .social-icons img {
+  filter: brightness(1); 
+}
+
+.navbar {
+  background:rgb(236, 230, 230); ;
+  border: none;
+  cursor: pointer;
+  display: flex;
+ 
+  justify-content: right
+ 
+}
+
+.navbar h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.navbar .logo {
+  position: absolute;
+  left: 80px;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: inherit;
+}
+
+.navbar .theme-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .theme-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.Form {
+  align-content: center;
+}
